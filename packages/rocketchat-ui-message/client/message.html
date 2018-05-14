@@ -21,6 +21,7 @@
 				<button class="thumb user-card-message" data-username="{{u.username}}" tabindex="1">{{> avatar username=u.username}}</button>
 			{{/if}}
 		{{/if}}
+
 		<button type="button" class="user user-card-message color-primary-font-color" data-username="{{u.username}}" tabindex="1">{{getName}}{{#if showUsername}} <span class="message-alias border-component-color color-info-font-color">@{{u.username}}</span>{{/if}}</button>
 		<span class="info border-component-color color-info-font-color">
 			{{#each roleTags}}
@@ -30,6 +31,9 @@
 				<span class="is-bot background-info-font-color">BOT</span>
 			{{/if}}
 			<span class="time" title='{{date}} {{time}}'>{{time}}</span>
+			{{#if isPinned}}
+				<span class="role-tag background-info-font-color">PINNED</span>
+			{{/if}}
 			{{#if showTranslated}}
 				<span class="translated">
 					<i class="icon-language {{#if autoTranslateFetching}}loading{{/if}}" aria-label="{{_ "Translated"}}"></i>

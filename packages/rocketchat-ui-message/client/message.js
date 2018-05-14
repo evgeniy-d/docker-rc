@@ -100,6 +100,9 @@ Template.message.helpers({
 	time() {
 		return moment(this.ts).format(RocketChat.settings.get('Message_TimeFormat'));
 	},
+	isPinned() {
+		 return this.pinned == true ? true : false
+	},
 	date() {
 		return moment(this.ts).format(RocketChat.settings.get('Message_DateFormat'));
 	},

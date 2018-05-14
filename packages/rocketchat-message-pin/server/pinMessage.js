@@ -42,7 +42,7 @@ Meteor.methods({
 		originalMessage = RocketChat.callbacks.run('beforeSaveMessage', originalMessage);
 		RocketChat.models.Messages.setPinnedByIdAndUserId(originalMessage._id, originalMessage.pinnedBy, originalMessage.pinned);
 
-		return RocketChat.models.Messages.createWithTypeRoomIdMessageAndUser('message_pinned', originalMessage.rid, '', me, {
+		return true; /*RocketChat.models.Messages.createWithTypeRoomIdMessageAndUser('message_pinned', originalMessage.rid, '', me, {
 			attachments: [
 				{
 					'text': originalMessage.msg,
@@ -51,7 +51,7 @@ Meteor.methods({
 					'ts': originalMessage.ts
 				}
 			]
-		});
+		});*/
 	},
 	unpinMessage(message) {
 		if (!Meteor.userId()) {
