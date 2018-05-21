@@ -756,7 +756,7 @@ class ModelSubscriptions extends RocketChat.models._Base {
 				name: user.name
 			}
 		};
-
+console.log(subscription);
 		const {
 			desktopNotifications,
 			mobileNotifications,

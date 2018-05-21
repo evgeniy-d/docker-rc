@@ -61,6 +61,23 @@
 				</div>
 			{{/unless}}
 
+			{{#if response_text}}
+				<div>
+						{{{parsedResponseText}}}
+				</div>
+			{{else}}
+				{{#if actions}}
+					{{initCallbackIdInActions}}
+					<div class="attachment-flex">
+							{{#each actions}}
+								{{#if type="button"}}
+										<button name="{{name}}" class="attachment-button {{style}}" value="{{callback_id}}">{{text}}</button>
+								{{/if}}
+							{{/each}}
+					</div>
+				{{/if}}
+			{{/if}}
+
 			{{#if image_url}}
 				{{#unless collapsed}}
 					<div class="attachment-image">

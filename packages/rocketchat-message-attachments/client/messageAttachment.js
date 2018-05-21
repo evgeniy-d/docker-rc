@@ -28,10 +28,27 @@ const fixCordova = function(url) {
 /*globals renderMessageBody*/
 Template.messageAttachment.helpers({
 	fixCordova,
+	initCallbackIdInActions() {
+		for (let i in this.actions) {
+			this.actions[i].callback_id = this.callback_id
+		}
+	},
 	parsedText() {
 		return renderMessageBody({
 			msg: this.text
 		});
+	},
+	parsedResponseText() {
+		var msg = {};
+		var responseText = renderMessageBody({
+			msg: this.response_text
+		});
+
+		msg.html = responseText;
+		msg.temp = true;
+
+		msg = RocketChat.callbacks.run('renderMentions', msg);
+		return msg.html;
 	},
 	loadImage() {
 		const user = Meteor.user();

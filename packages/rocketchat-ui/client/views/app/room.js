@@ -381,6 +381,57 @@ let lastTouchY = null;
 let lastScrollTop;
 
 Template.room.events({
+	'click .attachment-button'(e, t) {
+		e.preventDefault();
+		let _self = e.target;
+		let user = Meteor.user();
+		let attachmentIndex = -1;
+		let responseUrl = null;
+		let message = ChatMessage.findOne({ _id: this._arguments[1]._id });
+		let postData = {
+			name: _self.name,
+			username: user.username,
+			user_id: user._id,
+			value: _self.value,
+			message_id: this._arguments[1]._id
+		};
+
+		for (let i in message.attachments) {
+			if (message.attachments[i].callback_id == _self.value) {
+				responseUrl = message.attachments[i].callback_url;
+				attachmentIndex = i;
+				break;
+			}
+		}
+
+		if (!message.action_is_disabled && responseUrl && attachmentIndex !== -1) {
+			message.action_is_disabled = true;
+			Meteor.call('updateMessage', message);
+
+			jQuery.ajax({
+				method: 'POST',
+				url: responseUrl,
+				data: postData,
+				success: function(result) {
+					console.log(result);
+					if (result.response_text) {
+						let msg = ChatMessage.findOne({ _id: result.message_id });
+						msg.attachments[attachmentIndex].response_text = result.response_text;
+						Meteor.call('updateMessage', msg);
+					} else {
+						message.action_is_disabled = false;
+						Meteor.call('updateMessage', message);
+					}
+				},
+				error: function(xhr, status, errorThrown) {
+					message.action_is_disabled = false;
+					Meteor.call('updateMessage', message);
+					console.log(message);
+				}
+			});
+		}
+	},
+
 	'click .js-reply-broadcast'() {
 		const message = this._arguments[1];
 		RocketChat.roomTypes.openRouteLink('d', {name: this._arguments[1].u.username}, {...FlowRouter.current().queryParams, reply: message._id});
