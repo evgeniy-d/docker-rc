@@ -29,7 +29,7 @@ const sendNotification = ({
 	}
 
 	// dont send notification to users who ignored the sender
-	if (Array.isArray(subscription.ignored) && subscription.ignored.find(sender._id)) {
+	if (Array.isArray(subscription.ignored) && subscription.ignored.includes(sender._id)) {
 		return;
 	}
 
@@ -46,9 +46,11 @@ const sendNotification = ({
 		return;
 	}
 
-	notificationMessage = parseMessageTextPerUser(notificationMessage, receiver);
+	notificationMessage = parseMessageTextPerUser(notificationMessage, message, receiver);
 
 	const isHighlighted = messageContainsHighlight(message, subscription.userHighlights);
+
+	const roomType = room.t;
 
 	const {
 		audioNotifications,
@@ -67,7 +69,8 @@ const sendNotification = ({
 		hasMentionToAll,
 		hasMentionToHere,
 		isHighlighted,
-		hasMentionToUser
+		hasMentionToUser,
+		roomType
 	})) {
 		notifyAudioUser(subscription.u._id, message, room);
 	}
@@ -80,7 +83,8 @@ const sendNotification = ({
 		hasMentionToAll,
 		hasMentionToHere,
 		isHighlighted,
-		hasMentionToUser
+		hasMentionToUser,
+		roomType
 	})) {
 		notificationSent = true;
 		notifyDesktopUser({
@@ -99,7 +103,8 @@ const sendNotification = ({
 		hasMentionToAll,
 		isHighlighted,
 		hasMentionToUser,
-		statusConnection: receiver.statusConnection
+		statusConnection: receiver.statusConnection,
+		roomType
 	})) {
 		notificationSent = true;
 
@@ -109,6 +114,7 @@ const sendNotification = ({
 			message,
 			userId: subscription.u._id,
 			senderUsername: sender.username,
+			senderName: sender.name,
 			receiverUsername: receiver.username
 		});
 	}
@@ -119,7 +125,8 @@ const sendNotification = ({
 		emailNotifications,
 		isHighlighted,
 		hasMentionToUser,
-		hasMentionToAll
+		hasMentionToAll,
+		roomType
 	})) {
 		receiver.emails.some((email) => {
 			if (email.verified) {
@@ -167,7 +174,7 @@ function sendAllNotifications(message, room) {
 
 	// Don't fetch all users if room exceeds max members
 	const maxMembersForNotification = RocketChat.settings.get('Notifications_Max_Room_Members');
-	const disableAllMessageNotifications = room.usernames.length > maxMembersForNotification && maxMembersForNotification !== 0;
+	const disableAllMessageNotifications = room.usernames && room.usernames.length > maxMembersForNotification && maxMembersForNotification !== 0;
 
 	const query = {
 		rid: room._id,
@@ -192,13 +199,19 @@ function sendAllNotifications(message, room) {
 				[notificationField]: 'mentions',
 				'u._id': { $in: mentionIdsWithoutGroups }
 			});
+		} else if (!disableAllMessageNotifications && (hasMentionToAll || hasMentionToHere)) {
+			query.$or.push({
+				[notificationField]: 'mentions'
+			});
 		}
 
-		if (RocketChat.settings.get(`Accounts_Default_User_Preferences_${ notificationField }`) === 'all' && !disableAllMessageNotifications) {
+		const serverField = kind === 'email' ? 'emailNotificationMode' : `${ kind }Notifications`;
+		const serverPreference = RocketChat.settings.get(`Accounts_Default_User_Preferences_${ serverField }`);
+		if ((room.t === 'd' && serverPreference !== 'nothing') || (!disableAllMessageNotifications && (serverPreference === 'all' || hasMentionToAll || hasMentionToHere))) {
 			query.$or.push({
 				[notificationField]: { $exists: false }
 			});
-		} else if (RocketChat.settings.get(`Accounts_Default_User_Preferences_${ notificationField }`) === 'mentions' && mentionIdsWithoutGroups.length) {
+		} else if (serverPreference === 'mentions' && mentionIdsWithoutGroups.length) {
 			query.$or.push({
 				[notificationField]: { $exists: false },
 				'u._id': { $in: mentionIdsWithoutGroups }
