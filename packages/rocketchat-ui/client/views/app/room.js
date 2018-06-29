@@ -423,7 +423,7 @@ Template.room.events({
 
 		if (!message.action_is_disabled && responseUrl && attachmentIndex !== -1) {
 			message.action_is_disabled = true;
-			Meteor.call('updateMessage', message);
+			Meteor.call('updateMessageWithButton', message);
 
 			jQuery.ajax({
 				method: 'POST',
@@ -434,16 +434,15 @@ Template.room.events({
 					if (result.response_text) {
 						let msg = ChatMessage.findOne({ _id: result.message_id });
 						msg.attachments[attachmentIndex].response_text = result.response_text;
-						Meteor.call('updateMessage', msg);
+						Meteor.call('updateMessageWithButton', msg);
 					} else {
 						message.action_is_disabled = false;
-						Meteor.call('updateMessage', message);
+						Meteor.call('updateMessageWithButton', message);
 					}
 				},
 				error: function(xhr, status, errorThrown) {
 					message.action_is_disabled = false;
-					Meteor.call('updateMessage', message);
-					console.log(message);
+					Meteor.call('updateMessageWithButton', message);
 				}
 			});
 		}
