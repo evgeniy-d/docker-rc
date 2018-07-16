@@ -6,13 +6,13 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-
 	api.use([
 		'ecmascript',
 		'check',
 		'rocketchat:lib',
-		'rocketchat:ui-sidenav'
+		'rocketchat:ui-sidenav',
 	]);
 
 	api.addFiles('rocketchat-lib/server/methods/updateMessage.js', 'server');
+	api.addFiles('client/client.js', 'client');
 });
