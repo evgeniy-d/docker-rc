@@ -1,5 +1,7 @@
 FROM mtro/docker-rc-base:latest
 
+USER meteor
+
 RUN set -x \
  && mkdir -p /source \
  && mkdir -p /server \
@@ -29,7 +31,8 @@ ENV DEPLOY_METHOD=docker \
     HOME=/tmp \
     PORT=3000 \
     ROOT_URL=http://localhost:3000 \
-    Accounts_AvatarStorePath=/app/uploads
+    Accounts_AvatarStorePath=/app/uploads \
+    SERVER_NAME=https://chat.oiler.ua
 
 EXPOSE 3000:3000
 
