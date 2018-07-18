@@ -23,7 +23,7 @@ RUN set -x \
 
 USER root
 
-chown -R rocketchat:rocketchat /app
+RUN chown -R rocketchat:rocketchat /app
 
 USER rocketchat
 
