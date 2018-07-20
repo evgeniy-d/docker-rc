@@ -2,7 +2,7 @@ FROM mtro/docker-rc-base:latest
 
 USER root
 
-COPY ./build /app/build/
+COPY ./server_build /app/build/
 
 RUN chown -R rocketchat /app
 
@@ -16,4 +16,3 @@ USER rocketchat
 WORKDIR /app/build/bundle
 
 CMD ["node", "main.js"]
-

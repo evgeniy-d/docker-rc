@@ -1,0 +1,1055 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "2e11cd26940a4ee89ab201fe005acdde2e08081f.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/2e11cd26940a4ee89ab201fe005acdde2e08081f.js?meteor_js_resource=true",
+      "size": 5042543,
+      "hash": "2e11cd26940a4ee89ab201fe005acdde2e08081f"
+    },
+    {
+      "path": "2e11cd26940a4ee89ab201fe005acdde2e08081f.stats.json",
+      "where": "client",
+      "type": "json",
+      "cacheable": true,
+      "url": "/2e11cd26940a4ee89ab201fe005acdde2e08081f.stats.json?meteor_js_resource=true",
+      "size": 119422,
+      "hash": "0ba9a26089fd634ca51f45ff6f5b92739682c6af"
+    },
+    {
+      "path": "963baac12f3a2a800f2cdba163d488b0f79aa084.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/963baac12f3a2a800f2cdba163d488b0f79aa084.css?meteor_css_resource=true",
+      "size": 415386,
+      "hash": "963baac12f3a2a800f2cdba163d488b0f79aa084"
+    },
+    {
+      "path": "packages/oauth/end_of_popup_response.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/oauth/end_of_popup_response.js",
+      "size": 1137,
+      "hash": "8a36abddc07778ebcf5db6253f08bd2b63d02c63"
+    },
+    {
+      "path": "packages/oauth/end_of_redirect_response.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/oauth/end_of_redirect_response.js",
+      "size": 356,
+      "hash": "db42ae47cb556ec736c5b7b1cee4cfbed3f8abf6"
+    },
+    {
+      "path": "packages/rocketchat_theme/client/vendor/fontello/font/fontello.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_theme/client/vendor/fontello/font/fontello.eot",
+      "size": 171784,
+      "hash": "28b6183e8580e3334586755d6509f6d124665714"
+    },
+    {
+      "path": "packages/rocketchat_theme/client/vendor/fontello/font/fontello.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_theme/client/vendor/fontello/font/fontello.svg",
+      "size": 231754,
+      "hash": "3a78711d39997e988e5f3ee18ae65eba216edef5"
+    },
+    {
+      "path": "packages/rocketchat_theme/client/vendor/fontello/font/fontello.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_theme/client/vendor/fontello/font/fontello.ttf",
+      "size": 171616,
+      "hash": "8a24c8dd4e467b0c01979c6d0f7cb0c3f24ae548"
+    },
+    {
+      "path": "packages/rocketchat_theme/client/vendor/fontello/font/fontello.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_theme/client/vendor/fontello/font/fontello.woff",
+      "size": 96796,
+      "hash": "559e4e8674e7cdbeabfd3c021d449b908cbfe5a7"
+    },
+    {
+      "path": "packages/rocketchat_theme/client/vendor/fontello/font/fontello.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_theme/client/vendor/fontello/font/fontello.woff2",
+      "size": 79840,
+      "hash": "881798a988fc8d2e45178bd553a1c14529f9617d"
+    },
+    {
+      "path": "packages/emojione_emojione/assets/sprites/emojione.sprites.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/emojione_emojione/assets/sprites/emojione.sprites.css",
+      "size": 97844,
+      "hash": "bc95b16b8a5a93a938f5b62b09f8181b73e7ac20"
+    },
+    {
+      "path": "packages/emojione_emojione/assets/sprites/emojione.sprites.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/emojione_emojione/assets/sprites/emojione.sprites.svg",
+      "size": 3160186,
+      "hash": "d349a272cb943c4668bd5f32f5a31a4ce87a0f95"
+    },
+    {
+      "path": "packages/emojione_emojione/assets/sprites/emojione.sprites.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/emojione_emojione/assets/sprites/emojione.sprites.png",
+      "size": 2257503,
+      "hash": "d783cdda2d21537fbe9db3372b373a50f430f5ed"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_AMS-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_AMS-Regular.ttf",
+      "size": 71428,
+      "hash": "49b0eff1b1848283139d15a907b8c728995d6b8f"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_AMS-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_AMS-Regular.woff",
+      "size": 40200,
+      "hash": "0231d9102118572cccea4696f5fa1d511adabbf7"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_AMS-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_AMS-Regular.woff2",
+      "size": 33208,
+      "hash": "c1a28ce4c87c86019ef5f5405db33967005c0e9e"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Bold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Bold.ttf",
+      "size": 19588,
+      "hash": "5327628ff7ffcfa6c3d36ee915ec23c56f90359a"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Bold.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Bold.woff",
+      "size": 12136,
+      "hash": "f660c39817366ef285e61ce31423872b816f2c88"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Bold.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Bold.woff2",
+      "size": 10608,
+      "hash": "2411542524d8fc53fcc0217edb548f0060a26c10"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Regular.ttf",
+      "size": 18960,
+      "hash": "b596baa6df40574e78d833fbf249e64ea0e77c31"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Regular.woff",
+      "size": 11868,
+      "hash": "6b96afa16e8a79fae3c516c28761999751c37550"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Caligraphic-Regular.woff2",
+      "size": 10412,
+      "hash": "a2eec7268e4d26680f3c4878c4259fb8b723bad4"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Bold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Bold.ttf",
+      "size": 35968,
+      "hash": "159f93282ceaec53ec748eb1e098089e0a7c32f7"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Bold.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Bold.woff",
+      "size": 23388,
+      "hash": "78576c5320922119486137ecff99547570be0b9f"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Bold.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Bold.woff2",
+      "size": 20488,
+      "hash": "b67e14310eb3dbf36db34861f98e9000ff8d8ecf"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Regular.ttf",
+      "size": 34652,
+      "hash": "9682eb440521024f55954464388817082b979185"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Regular.woff",
+      "size": 22844,
+      "hash": "09e961b87f0a09f45834503edb92f1468db819fd"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Fraktur-Regular.woff2",
+      "size": 19868,
+      "hash": "30d16ea3ba03826206775d19009c713c5c15755e"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Bold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Bold.ttf",
+      "size": 61772,
+      "hash": "ccb0035e995a1aa5c3a8fe83a0628e37b3648190"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Bold.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Bold.woff",
+      "size": 36928,
+      "hash": "6a68eb1751ca60725e0f2ad570de853de5276dd2"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Bold.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Bold.woff2",
+      "size": 30824,
+      "hash": "5363f4dc5ed1f4f7bb868f08cff01cf3de56f96e"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-BoldItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-BoldItalic.ttf",
+      "size": 44824,
+      "hash": "2e408afd7425936e06be0208290c68abeb6d7129"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-BoldItalic.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-BoldItalic.woff",
+      "size": 26228,
+      "hash": "4aab31a1a23f373c7d6d40dc7eeacd95ca632b05"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-BoldItalic.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-BoldItalic.woff2",
+      "size": 22176,
+      "hash": "4dc5bfbb6c5f7b00bdd7c608972ead07fa3044ca"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Italic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Italic.ttf",
+      "size": 47952,
+      "hash": "d23173c32ee7b8b7e4a46ab328224543c446c6cd"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Italic.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Italic.woff",
+      "size": 27200,
+      "hash": "dac2ffadf4343d240cf32439079c7ce01a2dc220"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Italic.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Italic.woff2",
+      "size": 23064,
+      "hash": "176487863a4d0aa3bc4bce5872a98ee12638b3c0"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Regular.ttf",
+      "size": 70512,
+      "hash": "3607240dc9bf706b936f95aeeccd2e0728ca4a0d"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Regular.woff",
+      "size": 39728,
+      "hash": "ce469e77ff7ee18fffcfde06d3689adc3d6f7b33"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Main-Regular.woff2",
+      "size": 33096,
+      "hash": "705f0edde5745573dacd742ac14a80f80c1764b2"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Math-Italic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Math-Italic.ttf",
+      "size": 41448,
+      "hash": "6b70914a8b8e2754850c982b87140934961467d4"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Math-Italic.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Math-Italic.woff",
+      "size": 23820,
+      "hash": "514e7765765cc4ca3186b9c770400ef249b46a8b"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Math-Italic.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Math-Italic.woff2",
+      "size": 20416,
+      "hash": "0d6f3a0de1cd25935efa15b6e158e5c2945bf73a"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Bold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Bold.ttf",
+      "size": 34032,
+      "hash": "6e2f2eac5bcb757d843dd1edc931e9e658885784"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Bold.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Bold.woff",
+      "size": 19172,
+      "hash": "6d399e5530373851575312447c9c2c3c07e7e9c4"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Bold.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Bold.woff2",
+      "size": 16000,
+      "hash": "e4f2943f02bb15c39b31d1d29964960dfcae56c4"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Italic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Italic.ttf",
+      "size": 31308,
+      "hash": "5713f79dd0ec7de06d7ead37b581066590bda181"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Italic.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Italic.woff",
+      "size": 18128,
+      "hash": "cc41b9f6d486df7abf1c2cba7d6625e67a8047ca"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Italic.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Italic.woff2",
+      "size": 15204,
+      "hash": "f2f1f5882cd23573059aa814744f76dfeee8263c"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Regular.ttf",
+      "size": 30156,
+      "hash": "c9ecf5d4e315a76e7a8180eb16fc4d4408410317"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Regular.woff",
+      "size": 16784,
+      "hash": "cc332cdaa619e2703bc43b1670abb26fab4ca9ec"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_SansSerif-Regular.woff2",
+      "size": 14004,
+      "hash": "cc8278f08fa89730a336fdaa4f46f213ba9dc585"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Script-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Script-Regular.ttf",
+      "size": 24864,
+      "hash": "3ed6f658ce0e09d1e10064759bd0f5b674f672a8"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Script-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Script-Regular.woff",
+      "size": 13856,
+      "hash": "1aeff3e9a7b37f2b770471d5fa69be9086e29364"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Script-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Script-Regular.woff2",
+      "size": 12268,
+      "hash": "b5d630a2f3054e254efcf7f27412cd8fccb1d417"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size1-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size1-Regular.ttf",
+      "size": 13172,
+      "hash": "d6716827b8b2088176890d071d9fbbad301a08d3"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size1-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size1-Regular.woff",
+      "size": 6980,
+      "hash": "728b20ab83a0baa40e1b4129f7ef10073ac6b07a"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size1-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size1-Regular.woff2",
+      "size": 5812,
+      "hash": "2c2af99c22a664c5bca2b49793de0df97053d002"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size2-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size2-Regular.ttf",
+      "size": 12412,
+      "hash": "1945a95c2093c8a489cd0ac7ce51b0c379873a3f"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size2-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size2-Regular.woff",
+      "size": 6684,
+      "hash": "250b7392f2673a6c574d0eadd967dbc3aee9e551"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size2-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size2-Regular.woff2",
+      "size": 5560,
+      "hash": "4cfa7dfcfd571115460f28aa57a86c67c0163470"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size3-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size3-Regular.ttf",
+      "size": 8360,
+      "hash": "1e3f19515e7de196e6a8f6e4c3d79fc0f23b9334"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size3-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size3-Regular.woff",
+      "size": 4776,
+      "hash": "08864f2f3b5e3b0d12d61bbec44c1b4f6f963b98"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size3-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size3-Regular.woff2",
+      "size": 3860,
+      "hash": "1ccd4279d2b737c75e507b6e43ddd714d79f2d03"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size4-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size4-Regular.ttf",
+      "size": 11284,
+      "hash": "fd800316835ee81a368f8221c51fac77d92eda1a"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size4-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size4-Regular.woff",
+      "size": 6456,
+      "hash": "f97a612a26078006f72faaca5c013230a8d8184b"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size4-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Size4-Regular.woff2",
+      "size": 5132,
+      "hash": "9a682ed6f12e9909b28d9db883eed7b85180931a"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Typewriter-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Typewriter-Regular.ttf",
+      "size": 36308,
+      "hash": "a60076a3eca76f8af716182687944b5a3ffe12cc"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Typewriter-Regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Typewriter-Regular.woff",
+      "size": 20924,
+      "hash": "cee5593eb455bf8b182f328b5abcbf6a314fe587"
+    },
+    {
+      "path": "packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Typewriter-Regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_katex/node_modules/katex/dist/fonts/KaTeX_Typewriter-Regular.woff2",
+      "size": 17536,
+      "hash": "ad89e36521ccb8cf5c19b98f31971ad85bd022c2"
+    },
+    {
+      "path": "packages/rocketchat_livechat/assets/demo.html",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_livechat/assets/demo.html",
+      "size": 1384,
+      "hash": "21e625adb8f4f95d818e8b73ac43c66c85a7e3cc"
+    },
+    {
+      "path": "packages/rocketchat_livechat/assets/rocket-livechat.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_livechat/assets/rocket-livechat.js",
+      "size": 23656,
+      "hash": "440493fff81fbc84ff9e5f720f586dc19fccac54"
+    },
+    {
+      "path": "packages/rocketchat_livechat/assets/rocketchat-livechat.min.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js",
+      "size": 6985,
+      "hash": "c961e5133116848e54485fbfe985ac46952fa814"
+    },
+    {
+      "path": "packages/rocketchat_videobridge/client/public/external_api.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/rocketchat_videobridge/client/public/external_api.js",
+      "size": 15098,
+      "hash": "44801d272946f55086dbbbf7aa7c90bd068b831b"
+    },
+    {
+      "path": "packages/es5-shim/es5-shim-sham.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/es5-shim/es5-shim-sham.js",
+      "size": 107174,
+      "hash": "c75e7bf8f84078ec1aac4edd37d060bb60ef8fc2"
+    },
+    {
+      "path": "packages/es5-shim/es5-shim-sham.min.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/es5-shim/es5-shim-sham.min.js",
+      "size": 27347,
+      "hash": "f611834e690a71f04d03591a455670d90218faaa"
+    },
+    {
+      "path": "app/favicon.ico",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/favicon.ico",
+      "size": 15086,
+      "hash": "2498d336240e7a885325def7d842fbcb7a1acda8"
+    },
+    {
+      "path": "app/lame.min.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/lame.min.js",
+      "size": 156105,
+      "hash": "8e7ec78bee70dc0e22cbb51b7d08deec5a2cca36"
+    },
+    {
+      "path": "app/manifest.webapp",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/manifest.webapp",
+      "size": 411,
+      "hash": "bcb0ef937729060c3ccc660e119e7074c4dec11b"
+    },
+    {
+      "path": "app/mp3-realtime-worker.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/mp3-realtime-worker.js",
+      "size": 1701,
+      "hash": "ee9512cecf917bc218a136e4362515cbee04088d"
+    },
+    {
+      "path": "app/images/browserconfig.xml",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/browserconfig.xml",
+      "size": 320,
+      "hash": "9a8d394342dff69828f43ee22a114b119768b052"
+    },
+    {
+      "path": "app/images/gallery-skin.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/gallery-skin.svg",
+      "size": 1554,
+      "hash": "2aa8c37f141a57f219ba33b3f8d7e31ec8b5d860"
+    },
+    {
+      "path": "app/images/join-chat.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/join-chat.svg",
+      "size": 757,
+      "hash": "98fdb697d12e0be5f8afc438936bfefca858cc21"
+    },
+    {
+      "path": "app/images/manifest.json",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/manifest.json",
+      "size": 345,
+      "hash": "b1fff7fedde50c59c9c0b83ffe760d3148c9ba5a"
+    },
+    {
+      "path": "app/images/onepassword-button.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/onepassword-button.png",
+      "size": 2757,
+      "hash": "ff498d97c48a2caa9a18e09b49f22d9d5a1beedd"
+    },
+    {
+      "path": "app/images/setup-wizard-intro.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/setup-wizard-intro.png",
+      "size": 17059,
+      "hash": "537a250d0ae84ce42cfb02e6512e018be37bacc6"
+    },
+    {
+      "path": "app/livechat/livechat.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/livechat/livechat.css",
+      "size": 18274,
+      "hash": "7a1ace2ef885347f201b951ccd8cd32d8ac86d60"
+    },
+    {
+      "path": "app/livechat/livechat.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/livechat/livechat.js",
+      "size": 1255890,
+      "hash": "efccdaf9175c4d7e3a32552d29027160f54987a7"
+    },
+    {
+      "path": "app/sounds/beep.mp3",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/sounds/beep.mp3",
+      "size": 6318,
+      "hash": "900e56446e779c91ea5a73c9adb7b80c38aac052"
+    },
+    {
+      "path": "app/sounds/chelle.mp3",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/sounds/chelle.mp3",
+      "size": 33489,
+      "hash": "dc8cf326423fdc3e69753014740539cec57f7e8e"
+    },
+    {
+      "path": "app/sounds/chime.mp3",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/sounds/chime.mp3",
+      "size": 5248,
+      "hash": "52615fd1d2d28eff443f65dae0400c88dd919cae"
+    },
+    {
+      "path": "app/sounds/ding.mp3",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/sounds/ding.mp3",
+      "size": 24737,
+      "hash": "90736a47be832ad665225238b1b704f136a369ce"
+    },
+    {
+      "path": "app/sounds/door.mp3",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/sounds/door.mp3",
+      "size": 30137,
+      "hash": "bf4d432afeb826cf518a578e9592280f032609b8"
+    },
+    {
+      "path": "app/sounds/droplet.mp3",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/sounds/droplet.mp3",
+      "size": 6059,
+      "hash": "49faa10df2cb30393faa0553d524a4045799d260"
+    },
+    {
+      "path": "app/sounds/highbell.mp3",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/sounds/highbell.mp3",
+      "size": 65745,
+      "hash": "5768afaa490488ea3523b70a1ecef0f213923986"
+    },
+    {
+      "path": "app/sounds/seasons.mp3",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/sounds/seasons.mp3",
+      "size": 17664,
+      "hash": "13278d03abca907bc936ace37f751c833a1a81f3"
+    },
+    {
+      "path": "app/images/logo/1024x1024-circle.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/1024x1024-circle.png",
+      "size": 9798,
+      "hash": "59a49bbc003e0abf468d17020d1fdff021a41b6f"
+    },
+    {
+      "path": "app/images/logo/1024x1024.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/1024x1024.png",
+      "size": 12100,
+      "hash": "f28d26ded7c6894642c2ab3a4f11d6466e3a3103"
+    },
+    {
+      "path": "app/images/logo/512x512.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/512x512.jpg",
+      "size": 26523,
+      "hash": "0eb53bdff809eafbf956d44bbd7bfeec9286d10c"
+    },
+    {
+      "path": "app/images/logo/512x512.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/512x512.png",
+      "size": 6090,
+      "hash": "3a7fc81eb5b15edeb49730e5ae7d662171220bc2"
+    },
+    {
+      "path": "app/images/logo/android-chrome-192x192.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/android-chrome-192x192.png",
+      "size": 5097,
+      "hash": "154a5bd93fffffe2d7fc1f1eff71fa27d18ade05"
+    },
+    {
+      "path": "app/images/logo/apple-touch-icon-precomposed.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/apple-touch-icon-precomposed.png",
+      "size": 4529,
+      "hash": "e4b9af588a4df977e668a27710dbbfb72c93b1ef"
+    },
+    {
+      "path": "app/images/logo/apple-touch-icon.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/apple-touch-icon.png",
+      "size": 3430,
+      "hash": "299b7e58be985952b9aeb719c13abc48ebc1a6f2"
+    },
+    {
+      "path": "app/images/logo/favicon-16x16.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/favicon-16x16.png",
+      "size": 596,
+      "hash": "cbb9e16ba3957f9a38226465f49ca4b4aa0e263c"
+    },
+    {
+      "path": "app/images/logo/favicon-32x32.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/favicon-32x32.png",
+      "size": 1176,
+      "hash": "7a2738f2b4da726df550fbefe16c636641ef872b"
+    },
+    {
+      "path": "app/images/logo/favicon.ico",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/favicon.ico",
+      "size": 15086,
+      "hash": "cca8b2d30b149e09a48ca7ce3099b1021e6dc25a"
+    },
+    {
+      "path": "app/images/logo/icon.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/icon.svg",
+      "size": 2199,
+      "hash": "8dfb2e4dbf1b6c9fef62e3ebeda7d93652f9f6d6"
+    },
+    {
+      "path": "app/images/logo/logo-black.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/logo-black.svg",
+      "size": 4575,
+      "hash": "727c50d50f155683de2aa6314d0784e122d4b108"
+    },
+    {
+      "path": "app/images/logo/logo-dark.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/logo-dark.svg",
+      "size": 6544,
+      "hash": "72e445494dfc0ac3edb461b5f3ea2f30a0ede4fd"
+    },
+    {
+      "path": "app/images/logo/logo.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/logo.svg",
+      "size": 6544,
+      "hash": "1980347c17768e5e72e537798636e301f10c9595"
+    },
+    {
+      "path": "app/images/logo/mstile-144x144.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/mstile-144x144.png",
+      "size": 4030,
+      "hash": "e9d3426e4e56019e8ff3ac803da965c8f0d9148b"
+    },
+    {
+      "path": "app/images/logo/mstile-150x150.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/mstile-150x150.png",
+      "size": 3769,
+      "hash": "ab6500207559130466a4771cf9c182c94d792e12"
+    },
+    {
+      "path": "app/images/logo/mstile-310x150.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/mstile-310x150.png",
+      "size": 3910,
+      "hash": "5bdd1c911a552f815feee6eaa40ac8fe40aafcf6"
+    },
+    {
+      "path": "app/images/logo/mstile-310x310.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/mstile-310x310.png",
+      "size": 7003,
+      "hash": "a13c4eabc318815c9e3e31903c3140d36fc8b206"
+    },
+    {
+      "path": "app/images/logo/name-dark.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/name-dark.svg",
+      "size": 4876,
+      "hash": "95b7796427695f5eee7396bdf44498ebfef22d84"
+    },
+    {
+      "path": "app/images/logo/safari-pinned-tab.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo/safari-pinned-tab.svg",
+      "size": 1599,
+      "hash": "89c83cf6f68cf39f6f5217f42078f17b2d47dd02"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "3d517d531d1e36d0ef884ecd96672964c2c811af"
+    }
+  ]
+}

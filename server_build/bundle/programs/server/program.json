@@ -1,0 +1,1254 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "node_modules": "npm/node_modules/meteor/meteor/node_modules",
+      "path": "packages/meteor.js"
+    },
+    {
+      "path": "packages/ecmascript-runtime.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/modules-runtime/node_modules",
+      "path": "packages/modules-runtime.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/modules/node_modules",
+      "path": "packages/modules.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ecmascript-runtime-server/node_modules",
+      "path": "packages/ecmascript-runtime-server.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/babel-compiler/node_modules",
+      "path": "packages/babel-compiler.js"
+    },
+    {
+      "sourceMap": "packages/ecmascript.js.map",
+      "path": "packages/ecmascript.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/babel-runtime/node_modules",
+      "path": "packages/babel-runtime.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/promise/node_modules",
+      "path": "packages/promise.js"
+    },
+    {
+      "path": "packages/url.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/http/node_modules",
+      "path": "packages/http.js"
+    },
+    {
+      "path": "packages/dynamic-import.js"
+    },
+    {
+      "sourceMap": "packages/base64.js.map",
+      "path": "packages/base64.js"
+    },
+    {
+      "sourceMap": "packages/ejson.js.map",
+      "path": "packages/ejson.js"
+    },
+    {
+      "path": "packages/ecmascript-runtime-client.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/logging/node_modules",
+      "sourceMap": "packages/logging.js.map",
+      "path": "packages/logging.js"
+    },
+    {
+      "path": "packages/underscore.js"
+    },
+    {
+      "sourceMap": "packages/routepolicy.js.map",
+      "path": "packages/routepolicy.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/boilerplate-generator/node_modules",
+      "sourceMap": "packages/boilerplate-generator.js.map",
+      "path": "packages/boilerplate-generator.js"
+    },
+    {
+      "sourceMap": "packages/webapp-hashing.js.map",
+      "path": "packages/webapp-hashing.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/webapp/node_modules",
+      "sourceMap": "packages/webapp.js.map",
+      "path": "packages/webapp.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/npm-mongo/node_modules",
+      "path": "packages/npm-mongo.js"
+    },
+    {
+      "sourceMap": "packages/diff-sequence.js.map",
+      "path": "packages/diff-sequence.js"
+    },
+    {
+      "path": "packages/geojson-utils.js"
+    },
+    {
+      "sourceMap": "packages/id-map.js.map",
+      "path": "packages/id-map.js"
+    },
+    {
+      "sourceMap": "packages/random.js.map",
+      "path": "packages/random.js"
+    },
+    {
+      "sourceMap": "packages/mongo-id.js.map",
+      "path": "packages/mongo-id.js"
+    },
+    {
+      "sourceMap": "packages/ordered-dict.js.map",
+      "path": "packages/ordered-dict.js"
+    },
+    {
+      "path": "packages/tracker.js"
+    },
+    {
+      "sourceMap": "packages/minimongo.js.map",
+      "path": "packages/minimongo.js"
+    },
+    {
+      "sourceMap": "packages/check.js.map",
+      "path": "packages/check.js"
+    },
+    {
+      "sourceMap": "packages/retry.js.map",
+      "path": "packages/retry.js"
+    },
+    {
+      "sourceMap": "packages/callback-hook.js.map",
+      "path": "packages/callback-hook.js"
+    },
+    {
+      "sourceMap": "packages/ddp-common.js.map",
+      "path": "packages/ddp-common.js"
+    },
+    {
+      "path": "packages/reload.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/socket-stream-client/node_modules",
+      "sourceMap": "packages/socket-stream-client.js.map",
+      "path": "packages/socket-stream-client.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ddp-client/node_modules",
+      "sourceMap": "packages/ddp-client.js.map",
+      "path": "packages/ddp-client.js"
+    },
+    {
+      "sourceMap": "packages/rate-limit.js.map",
+      "path": "packages/rate-limit.js"
+    },
+    {
+      "path": "packages/ddp-rate-limiter.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ddp-server/node_modules",
+      "sourceMap": "packages/ddp-server.js.map",
+      "path": "packages/ddp-server.js"
+    },
+    {
+      "path": "packages/ddp.js"
+    },
+    {
+      "sourceMap": "packages/allow-deny.js.map",
+      "path": "packages/allow-deny.js"
+    },
+    {
+      "path": "packages/binary-heap.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/mongo/node_modules",
+      "sourceMap": "packages/mongo.js.map",
+      "path": "packages/mongo.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_cors.js.map",
+      "path": "packages/rocketchat_cors.js"
+    },
+    {
+      "sourceMap": "packages/accounts-base.js.map",
+      "path": "packages/accounts-base.js"
+    },
+    {
+      "path": "packages/service-configuration.js"
+    },
+    {
+      "path": "packages/localstorage.js"
+    },
+    {
+      "path": "packages/oauth.js",
+      "assets": {
+        "end_of_popup_response.html": "assets/packages/oauth/end_of_popup_response.html",
+        "end_of_redirect_response.html": "assets/packages/oauth/end_of_redirect_response.html"
+      }
+    },
+    {
+      "path": "packages/accounts-oauth.js"
+    },
+    {
+      "path": "packages/oauth2.js"
+    },
+    {
+      "path": "packages/facebook-oauth.js"
+    },
+    {
+      "sourceMap": "packages/accounts-facebook.js.map",
+      "path": "packages/accounts-facebook.js"
+    },
+    {
+      "path": "packages/github-oauth.js"
+    },
+    {
+      "sourceMap": "packages/accounts-github.js.map",
+      "path": "packages/accounts-github.js"
+    },
+    {
+      "sourceMap": "packages/google-oauth.js.map",
+      "path": "packages/google-oauth.js"
+    },
+    {
+      "sourceMap": "packages/accounts-google.js.map",
+      "path": "packages/accounts-google.js"
+    },
+    {
+      "path": "packages/meteor-developer-oauth.js"
+    },
+    {
+      "sourceMap": "packages/accounts-meteor-developer.js.map",
+      "path": "packages/accounts-meteor-developer.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/npm-bcrypt/node_modules",
+      "path": "packages/npm-bcrypt.js"
+    },
+    {
+      "path": "packages/sha.js"
+    },
+    {
+      "path": "packages/srp.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/email/node_modules",
+      "path": "packages/email.js"
+    },
+    {
+      "sourceMap": "packages/accounts-password.js.map",
+      "path": "packages/accounts-password.js"
+    },
+    {
+      "path": "packages/oauth1.js"
+    },
+    {
+      "path": "packages/twitter-oauth.js"
+    },
+    {
+      "sourceMap": "packages/accounts-twitter.js.map",
+      "path": "packages/accounts-twitter.js"
+    },
+    {
+      "path": "packages/blaze-html-templates.js"
+    },
+    {
+      "path": "packages/fastclick.js"
+    },
+    {
+      "path": "packages/jquery.js"
+    },
+    {
+      "path": "packages/meteor-base.js"
+    },
+    {
+      "path": "packages/mobile-experience.js"
+    },
+    {
+      "sourceMap": "packages/reactive-dict.js.map",
+      "path": "packages/reactive-dict.js"
+    },
+    {
+      "path": "packages/reactive-var.js"
+    },
+    {
+      "path": "packages/session.js"
+    },
+    {
+      "sourceMap": "packages/shell-server.js.map",
+      "path": "packages/shell-server.js"
+    },
+    {
+      "path": "packages/observe-sequence.js"
+    },
+    {
+      "path": "packages/deps.js"
+    },
+    {
+      "path": "packages/htmljs.js"
+    },
+    {
+      "path": "packages/blaze.js"
+    },
+    {
+      "path": "packages/spacebars.js"
+    },
+    {
+      "path": "packages/standard-minifier-js.js"
+    },
+    {
+      "path": "packages/templating-compiler.js"
+    },
+    {
+      "path": "packages/templating-runtime.js"
+    },
+    {
+      "path": "packages/templating.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/matb33_collection-hooks/node_modules",
+      "path": "packages/matb33_collection-hooks.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_accounts/node_modules",
+      "sourceMap": "packages/rocketchat_accounts.js.map",
+      "path": "packages/rocketchat_accounts.js"
+    },
+    {
+      "path": "packages/coffeescript.js"
+    },
+    {
+      "path": "packages/raix_eventemitter.js"
+    },
+    {
+      "path": "packages/meteorspark_util.js"
+    },
+    {
+      "path": "packages/cfs_http-methods.js"
+    },
+    {
+      "sourceMap": "packages/tap_i18n.js.map",
+      "path": "packages/tap_i18n.js"
+    },
+    {
+      "path": "packages/rocketchat_i18n.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_streamer.js.map",
+      "path": "packages/rocketchat_streamer.js"
+    },
+    {
+      "path": "packages/rocketchat_version.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/nooitaf_colors/node_modules",
+      "path": "packages/nooitaf_colors.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_logger.js.map",
+      "path": "packages/rocketchat_logger.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_custom-oauth.js.map",
+      "path": "packages/rocketchat_custom-oauth.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/kadira_flow-router/node_modules",
+      "path": "packages/kadira_flow-router.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_lib.js.map",
+      "path": "packages/rocketchat_lib.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_2fa.js.map",
+      "path": "packages/rocketchat_2fa.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_file.js.map",
+      "path": "packages/rocketchat_file.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_assets.js.map",
+      "path": "packages/rocketchat_assets.js"
+    },
+    {
+      "path": "packages/less.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_theme.js.map",
+      "path": "packages/rocketchat_theme.js",
+      "assets": {
+        "client/imports/general/variables.css": "assets/packages/rocketchat_theme/client/imports/general/variables.css",
+        "server/colors.less": "assets/packages/rocketchat_theme/server/colors.less"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/meteorhacks_inject-initial/node_modules",
+      "path": "packages/meteorhacks_inject-initial.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_ui-master.js.map",
+      "path": "packages/rocketchat_ui-master.js",
+      "assets": {
+        "server/dynamic-css.js": "assets/packages/rocketchat_ui-master/server/dynamic-css.js",
+        "public/icons.svg": "assets/packages/rocketchat_ui-master/public/icons.svg"
+      }
+    },
+    {
+      "path": "packages/raix_eventstate.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/raix_push/node_modules",
+      "sourceMap": "packages/raix_push.js.map",
+      "path": "packages/raix_push.js"
+    },
+    {
+      "path": "packages/raix_ui-dropped-event.js"
+    },
+    {
+      "path": "packages/rocketchat_lazy-load.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_ui.js.map",
+      "path": "packages/rocketchat_ui.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_action-links.js.map",
+      "path": "packages/rocketchat_action-links.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_analytics.js.map",
+      "path": "packages/rocketchat_analytics.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/simple_json-routes/node_modules",
+      "path": "packages/simple_json-routes.js"
+    },
+    {
+      "sourceMap": "packages/nimble_restivus.js.map",
+      "path": "packages/nimble_restivus.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_api.js.map",
+      "path": "packages/rocketchat_api.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_authorization.js.map",
+      "path": "packages/rocketchat_authorization.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_autolinker.js.map",
+      "path": "packages/rocketchat_autolinker.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_autotranslate.js.map",
+      "path": "packages/rocketchat_autotranslate.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_bot-helpers.js.map",
+      "path": "packages/rocketchat_bot-helpers.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_cas.js.map",
+      "path": "packages/rocketchat_cas.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_channel-settings.js.map",
+      "path": "packages/rocketchat_channel-settings.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_channel-settings-mail-messages.js.map",
+      "path": "packages/rocketchat_channel-settings-mail-messages.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_colors.js.map",
+      "path": "packages/rocketchat_colors.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_crowd.js.map",
+      "path": "packages/rocketchat_crowd.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_custom-sounds.js.map",
+      "path": "packages/rocketchat_custom-sounds.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_dolphin.js.map",
+      "path": "packages/rocketchat_dolphin.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_drupal.js.map",
+      "path": "packages/rocketchat_drupal.js"
+    },
+    {
+      "path": "packages/rocketchat_ui-account.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_ui-vrecord.js.map",
+      "path": "packages/rocketchat_ui-vrecord.js"
+    },
+    {
+      "path": "packages/rocketchat_ui-message.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_emoji.js.map",
+      "path": "packages/rocketchat_emoji.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_emoji-custom.js.map",
+      "path": "packages/rocketchat_emoji-custom.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/emojione_emojione/node_modules",
+      "path": "packages/emojione_emojione.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_emoji-emojione.js.map",
+      "path": "packages/rocketchat_emoji-emojione.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_error-handler.js.map",
+      "path": "packages/rocketchat_error-handler.js"
+    },
+    {
+      "path": "packages/rocketchat_favico.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/jalik_ufs/node_modules",
+      "sourceMap": "packages/jalik_ufs.js.map",
+      "path": "packages/jalik_ufs.js"
+    },
+    {
+      "sourceMap": "packages/jalik_ufs-gridfs.js.map",
+      "path": "packages/jalik_ufs-gridfs.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/jalik_ufs-local/node_modules",
+      "sourceMap": "packages/jalik_ufs-local.js.map",
+      "path": "packages/jalik_ufs-local.js"
+    },
+    {
+      "path": "packages/edgee_slingshot.js"
+    },
+    {
+      "sourceMap": "packages/ostrio_cookies.js.map",
+      "path": "packages/ostrio_cookies.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_file-upload.js.map",
+      "path": "packages/rocketchat_file-upload.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_github-enterprise.js.map",
+      "path": "packages/rocketchat_github-enterprise.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_gitlab.js.map",
+      "path": "packages/rocketchat_gitlab.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_google-vision.js.map",
+      "path": "packages/rocketchat_google-vision.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_grant/node_modules",
+      "sourceMap": "packages/rocketchat_grant.js.map",
+      "path": "packages/rocketchat_grant.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_grant-facebook.js.map",
+      "path": "packages/rocketchat_grant-facebook.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_grant-github.js.map",
+      "path": "packages/rocketchat_grant-github.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_grant-google.js.map",
+      "path": "packages/rocketchat_grant-google.js"
+    },
+    {
+      "path": "packages/swydo_graphql.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_graphql/node_modules",
+      "sourceMap": "packages/rocketchat_graphql.js.map",
+      "path": "packages/rocketchat_graphql.js"
+    },
+    {
+      "path": "packages/rocketchat_highlight-words.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_iframe-login.js.map",
+      "path": "packages/rocketchat_iframe-login.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_importer.js.map",
+      "path": "packages/rocketchat_importer.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_importer-csv.js.map",
+      "path": "packages/rocketchat_importer-csv.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_importer-hipchat.js.map",
+      "path": "packages/rocketchat_importer-hipchat.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_importer-hipchat-enterprise.js.map",
+      "path": "packages/rocketchat_importer-hipchat-enterprise.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_importer-slack.js.map",
+      "path": "packages/rocketchat_importer-slack.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_importer-slack-users.js.map",
+      "path": "packages/rocketchat_importer-slack-users.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_integrations.js.map",
+      "path": "packages/rocketchat_integrations.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_internal-hubot/node_modules",
+      "sourceMap": "packages/rocketchat_internal-hubot.js.map",
+      "path": "packages/rocketchat_internal-hubot.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_irc/node_modules",
+      "sourceMap": "packages/rocketchat_irc.js.map",
+      "path": "packages/rocketchat_irc.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_issuelinks.js.map",
+      "path": "packages/rocketchat_issuelinks.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_katex/node_modules",
+      "sourceMap": "packages/rocketchat_katex.js.map",
+      "path": "packages/rocketchat_katex.js"
+    },
+    {
+      "path": "packages/yasaricli_slugify.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_ldap.js.map",
+      "path": "packages/rocketchat_ldap.js"
+    },
+    {
+      "sourceMap": "packages/autoupdate.js.map",
+      "path": "packages/autoupdate.js"
+    },
+    {
+      "path": "packages/konecty_user-presence.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_sms.js.map",
+      "path": "packages/rocketchat_sms.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_livechat/node_modules",
+      "sourceMap": "packages/rocketchat_livechat.js.map",
+      "path": "packages/rocketchat_livechat.js",
+      "assets": {
+        "public/head.html": "assets/packages/rocketchat_livechat/public/head.html"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_livestream/node_modules",
+      "sourceMap": "packages/rocketchat_livestream.js.map",
+      "path": "packages/rocketchat_livestream.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_login-token.js.map",
+      "path": "packages/rocketchat_login-token.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_mailer.js.map",
+      "path": "packages/rocketchat_mailer.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_mapview.js.map",
+      "path": "packages/rocketchat_mapview.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_markdown.js.map",
+      "path": "packages/rocketchat_markdown.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_mentions.js.map",
+      "path": "packages/rocketchat_mentions.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_mentions-flextab.js.map",
+      "path": "packages/rocketchat_mentions-flextab.js"
+    },
+    {
+      "path": "packages/rocketchat_message-attachments.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_message-mark-as-unread.js.map",
+      "path": "packages/rocketchat_message-mark-as-unread.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_message-pin.js.map",
+      "path": "packages/rocketchat_message-pin.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_message-snippet.js.map",
+      "path": "packages/rocketchat_message-snippet.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_message-star.js.map",
+      "path": "packages/rocketchat_message-star.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_migrations.js.map",
+      "path": "packages/rocketchat_migrations.js"
+    },
+    {
+      "path": "packages/meteorhacks_meteorx.js"
+    },
+    {
+      "path": "packages/livedata.js"
+    },
+    {
+      "path": "packages/mongo-livedata.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_monitoring/node_modules",
+      "path": "packages/rocketchat_monitoring.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_oauth2-server/node_modules",
+      "sourceMap": "packages/rocketchat_oauth2-server.js.map",
+      "path": "packages/rocketchat_oauth2-server.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_oauth2-server-config.js.map",
+      "path": "packages/rocketchat_oauth2-server-config.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/konecty_change-case/node_modules",
+      "path": "packages/konecty_change-case.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_oembed.js.map",
+      "path": "packages/rocketchat_oembed.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_otr.js.map",
+      "path": "packages/rocketchat_otr.js"
+    },
+    {
+      "path": "packages/rocketchat_postcss.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_push-notifications.js.map",
+      "path": "packages/rocketchat_push-notifications.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_reactions.js.map",
+      "path": "packages/rocketchat_reactions.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/rocketchat_apps/node_modules",
+      "sourceMap": "packages/rocketchat_apps.js.map",
+      "path": "packages/rocketchat_apps.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_sandstorm.js.map",
+      "path": "packages/rocketchat_sandstorm.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_setup-wizard.js.map",
+      "path": "packages/rocketchat_setup-wizard.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slackbridge.js.map",
+      "path": "packages/rocketchat_slackbridge.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-archive.js.map",
+      "path": "packages/rocketchat_slashcommands-archive.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-asciiarts.js.map",
+      "path": "packages/rocketchat_slashcommands-asciiarts.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-create.js.map",
+      "path": "packages/rocketchat_slashcommands-create.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-help.js.map",
+      "path": "packages/rocketchat_slashcommands-help.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-hide.js.map",
+      "path": "packages/rocketchat_slashcommands-hide.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-invite.js.map",
+      "path": "packages/rocketchat_slashcommands-invite.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-invite-all.js.map",
+      "path": "packages/rocketchat_slashcommands-invite-all.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-join.js.map",
+      "path": "packages/rocketchat_slashcommands-join.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-kick.js.map",
+      "path": "packages/rocketchat_slashcommands-kick.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-leave.js.map",
+      "path": "packages/rocketchat_slashcommands-leave.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-me.js.map",
+      "path": "packages/rocketchat_slashcommands-me.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-msg.js.map",
+      "path": "packages/rocketchat_slashcommands-msg.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-mute.js.map",
+      "path": "packages/rocketchat_slashcommands-mute.js"
+    },
+    {
+      "path": "packages/rocketchat_slashcommands-open.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-topic.js.map",
+      "path": "packages/rocketchat_slashcommands-topic.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_slashcommands-unarchive.js.map",
+      "path": "packages/rocketchat_slashcommands-unarchive.js"
+    },
+    {
+      "path": "packages/rocketchat_slider.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_smarsh-connector.js.map",
+      "path": "packages/rocketchat_smarsh-connector.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_spotify.js.map",
+      "path": "packages/rocketchat_spotify.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_statistics.js.map",
+      "path": "packages/rocketchat_statistics.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/percolate_synced-cron/node_modules",
+      "path": "packages/percolate_synced-cron.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_tokenpass.js.map",
+      "path": "packages/rocketchat_tokenpass.js"
+    },
+    {
+      "path": "packages/rocketchat_tooltip.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_tutum.js.map",
+      "path": "packages/rocketchat_tutum.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_ui-admin.js.map",
+      "path": "packages/rocketchat_ui-admin.js"
+    },
+    {
+      "path": "packages/rocketchat_ui-flextab.js"
+    },
+    {
+      "path": "packages/rocketchat_ui-login.js"
+    },
+    {
+      "path": "packages/rocketchat_ui-sidenav.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_user-data-download.js.map",
+      "path": "packages/rocketchat_user-data-download.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_videobridge.js.map",
+      "path": "packages/rocketchat_videobridge.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_webrtc.js.map",
+      "path": "packages/rocketchat_webrtc.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_wordpress.js.map",
+      "path": "packages/rocketchat_wordpress.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_nrr.js.map",
+      "path": "packages/rocketchat_nrr.js"
+    },
+    {
+      "path": "packages/konecty_delayed-task.js"
+    },
+    {
+      "path": "packages/konecty_mongo-counter.js"
+    },
+    {
+      "path": "packages/konecty_multiple-instances-status.js"
+    },
+    {
+      "path": "packages/deepwell_bootstrap-datepicker2.js"
+    },
+    {
+      "path": "packages/dispatch_run-as-user.js"
+    },
+    {
+      "path": "packages/francocatena_status.js"
+    },
+    {
+      "path": "packages/jparker_crypto-core.js"
+    },
+    {
+      "path": "packages/jparker_crypto-md5.js"
+    },
+    {
+      "path": "packages/jparker_gravatar.js"
+    },
+    {
+      "path": "packages/kadira_blaze-layout.js"
+    },
+    {
+      "path": "packages/keepnox_perfect-scrollbar.js"
+    },
+    {
+      "path": "packages/kenton_accounts-sandstorm.js"
+    },
+    {
+      "sourceMap": "packages/mizzao_autocomplete.js.map",
+      "path": "packages/mizzao_autocomplete.js"
+    },
+    {
+      "path": "packages/mizzao_timesync.js"
+    },
+    {
+      "path": "packages/mrt_reactive-store.js"
+    },
+    {
+      "path": "packages/mystor_device-detection.js"
+    },
+    {
+      "sourceMap": "packages/pauli_linkedin-oauth.js.map",
+      "path": "packages/pauli_linkedin-oauth.js"
+    },
+    {
+      "path": "packages/pauli_accounts-linkedin.js"
+    },
+    {
+      "path": "packages/raix_handlebar-helpers.js"
+    },
+    {
+      "sourceMap": "packages/steffo_meteor-accounts-saml.js.map",
+      "path": "packages/steffo_meteor-accounts-saml.js"
+    },
+    {
+      "sourceMap": "packages/todda00_friendly-slugs.js.map",
+      "path": "packages/todda00_friendly-slugs.js"
+    },
+    {
+      "path": "packages/yasinuslu_blaze-meta.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_version-check.js.map",
+      "path": "packages/rocketchat_version-check.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_search.js.map",
+      "path": "packages/rocketchat_search.js"
+    },
+    {
+      "sourceMap": "packages/chatpal_search.js.map",
+      "path": "packages/chatpal_search.js",
+      "assets": {
+        "server/asset/chatpal-enter.svg": "assets/packages/chatpal_search/server/asset/chatpal-enter.svg",
+        "server/asset/chatpal-logo-icon-darkblue.svg": "assets/packages/chatpal_search/server/asset/chatpal-logo-icon-darkblue.svg"
+      }
+    },
+    {
+      "sourceMap": "packages/oiler_rewrites.js.map",
+      "path": "packages/oiler_rewrites.js"
+    },
+    {
+      "path": "packages/ui.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/server-render/node_modules",
+      "sourceMap": "packages/server-render.js.map",
+      "path": "packages/server-render.js"
+    },
+    {
+      "sourceMap": "packages/shim-common.js.map",
+      "path": "packages/shim-common.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/es5-shim/node_modules",
+      "path": "packages/es5-shim.js"
+    },
+    {
+      "path": "packages/hot-code-push.js"
+    },
+    {
+      "path": "packages/launch-screen.js"
+    },
+    {
+      "node_modules": "npm/node_modules",
+      "path": "app/global-imports.js",
+      "assets": {
+        "avatars/hubot.png": "assets/app/avatars/hubot.png",
+        "avatars/hubot2.png": "assets/app/avatars/hubot2.png",
+        "avatars/rocketcat.png": "assets/app/avatars/rocketcat.png",
+        "moment-locales/af.js": "assets/app/moment-locales/af.js",
+        "moment-locales/ar-ma.js": "assets/app/moment-locales/ar-ma.js",
+        "moment-locales/ar-sa.js": "assets/app/moment-locales/ar-sa.js",
+        "moment-locales/ar-tn.js": "assets/app/moment-locales/ar-tn.js",
+        "moment-locales/ar.js": "assets/app/moment-locales/ar.js",
+        "moment-locales/az.js": "assets/app/moment-locales/az.js",
+        "moment-locales/be.js": "assets/app/moment-locales/be.js",
+        "moment-locales/bg.js": "assets/app/moment-locales/bg.js",
+        "moment-locales/bn.js": "assets/app/moment-locales/bn.js",
+        "moment-locales/bo.js": "assets/app/moment-locales/bo.js",
+        "moment-locales/br.js": "assets/app/moment-locales/br.js",
+        "moment-locales/bs.js": "assets/app/moment-locales/bs.js",
+        "moment-locales/ca.js": "assets/app/moment-locales/ca.js",
+        "moment-locales/cs.js": "assets/app/moment-locales/cs.js",
+        "moment-locales/cv.js": "assets/app/moment-locales/cv.js",
+        "moment-locales/cy.js": "assets/app/moment-locales/cy.js",
+        "moment-locales/da.js": "assets/app/moment-locales/da.js",
+        "moment-locales/de-at.js": "assets/app/moment-locales/de-at.js",
+        "moment-locales/de.js": "assets/app/moment-locales/de.js",
+        "moment-locales/dv.js": "assets/app/moment-locales/dv.js",
+        "moment-locales/el.js": "assets/app/moment-locales/el.js",
+        "moment-locales/en-au.js": "assets/app/moment-locales/en-au.js",
+        "moment-locales/en-ca.js": "assets/app/moment-locales/en-ca.js",
+        "moment-locales/en-gb.js": "assets/app/moment-locales/en-gb.js",
+        "moment-locales/en-ie.js": "assets/app/moment-locales/en-ie.js",
+        "moment-locales/en-nz.js": "assets/app/moment-locales/en-nz.js",
+        "moment-locales/eo.js": "assets/app/moment-locales/eo.js",
+        "moment-locales/es-do.js": "assets/app/moment-locales/es-do.js",
+        "moment-locales/es.js": "assets/app/moment-locales/es.js",
+        "moment-locales/et.js": "assets/app/moment-locales/et.js",
+        "moment-locales/eu.js": "assets/app/moment-locales/eu.js",
+        "moment-locales/fa.js": "assets/app/moment-locales/fa.js",
+        "moment-locales/fi.js": "assets/app/moment-locales/fi.js",
+        "moment-locales/fo.js": "assets/app/moment-locales/fo.js",
+        "moment-locales/fr-ca.js": "assets/app/moment-locales/fr-ca.js",
+        "moment-locales/fr-ch.js": "assets/app/moment-locales/fr-ch.js",
+        "moment-locales/fr.js": "assets/app/moment-locales/fr.js",
+        "moment-locales/fy.js": "assets/app/moment-locales/fy.js",
+        "moment-locales/gd.js": "assets/app/moment-locales/gd.js",
+        "moment-locales/gl.js": "assets/app/moment-locales/gl.js",
+        "moment-locales/he.js": "assets/app/moment-locales/he.js",
+        "moment-locales/hi.js": "assets/app/moment-locales/hi.js",
+        "moment-locales/hr.js": "assets/app/moment-locales/hr.js",
+        "moment-locales/hu.js": "assets/app/moment-locales/hu.js",
+        "moment-locales/hy-am.js": "assets/app/moment-locales/hy-am.js",
+        "moment-locales/id.js": "assets/app/moment-locales/id.js",
+        "moment-locales/is.js": "assets/app/moment-locales/is.js",
+        "moment-locales/it.js": "assets/app/moment-locales/it.js",
+        "moment-locales/ja.js": "assets/app/moment-locales/ja.js",
+        "moment-locales/jv.js": "assets/app/moment-locales/jv.js",
+        "moment-locales/ka.js": "assets/app/moment-locales/ka.js",
+        "moment-locales/kk.js": "assets/app/moment-locales/kk.js",
+        "moment-locales/km.js": "assets/app/moment-locales/km.js",
+        "moment-locales/ko.js": "assets/app/moment-locales/ko.js",
+        "moment-locales/ky.js": "assets/app/moment-locales/ky.js",
+        "moment-locales/lb.js": "assets/app/moment-locales/lb.js",
+        "moment-locales/lo.js": "assets/app/moment-locales/lo.js",
+        "moment-locales/lt.js": "assets/app/moment-locales/lt.js",
+        "moment-locales/lv.js": "assets/app/moment-locales/lv.js",
+        "moment-locales/me.js": "assets/app/moment-locales/me.js",
+        "moment-locales/mk.js": "assets/app/moment-locales/mk.js",
+        "moment-locales/ml.js": "assets/app/moment-locales/ml.js",
+        "moment-locales/mr.js": "assets/app/moment-locales/mr.js",
+        "moment-locales/ms-my.js": "assets/app/moment-locales/ms-my.js",
+        "moment-locales/ms.js": "assets/app/moment-locales/ms.js",
+        "moment-locales/my.js": "assets/app/moment-locales/my.js",
+        "moment-locales/nb.js": "assets/app/moment-locales/nb.js",
+        "moment-locales/ne.js": "assets/app/moment-locales/ne.js",
+        "moment-locales/nl.js": "assets/app/moment-locales/nl.js",
+        "moment-locales/nn.js": "assets/app/moment-locales/nn.js",
+        "moment-locales/pa-in.js": "assets/app/moment-locales/pa-in.js",
+        "moment-locales/pl.js": "assets/app/moment-locales/pl.js",
+        "moment-locales/pt-br.js": "assets/app/moment-locales/pt-br.js",
+        "moment-locales/pt.js": "assets/app/moment-locales/pt.js",
+        "moment-locales/ro.js": "assets/app/moment-locales/ro.js",
+        "moment-locales/ru.js": "assets/app/moment-locales/ru.js",
+        "moment-locales/se.js": "assets/app/moment-locales/se.js",
+        "moment-locales/si.js": "assets/app/moment-locales/si.js",
+        "moment-locales/sk.js": "assets/app/moment-locales/sk.js",
+        "moment-locales/sl.js": "assets/app/moment-locales/sl.js",
+        "moment-locales/sq.js": "assets/app/moment-locales/sq.js",
+        "moment-locales/sr-cyrl.js": "assets/app/moment-locales/sr-cyrl.js",
+        "moment-locales/sr.js": "assets/app/moment-locales/sr.js",
+        "moment-locales/ss.js": "assets/app/moment-locales/ss.js",
+        "moment-locales/sv.js": "assets/app/moment-locales/sv.js",
+        "moment-locales/sw.js": "assets/app/moment-locales/sw.js",
+        "moment-locales/ta.js": "assets/app/moment-locales/ta.js",
+        "moment-locales/te.js": "assets/app/moment-locales/te.js",
+        "moment-locales/th.js": "assets/app/moment-locales/th.js",
+        "moment-locales/tl-ph.js": "assets/app/moment-locales/tl-ph.js",
+        "moment-locales/tlh.js": "assets/app/moment-locales/tlh.js",
+        "moment-locales/tr.js": "assets/app/moment-locales/tr.js",
+        "moment-locales/tzl.js": "assets/app/moment-locales/tzl.js",
+        "moment-locales/tzm-latn.js": "assets/app/moment-locales/tzm-latn.js",
+        "moment-locales/tzm.js": "assets/app/moment-locales/tzm.js",
+        "moment-locales/uk.js": "assets/app/moment-locales/uk.js",
+        "moment-locales/uz.js": "assets/app/moment-locales/uz.js",
+        "moment-locales/vi.js": "assets/app/moment-locales/vi.js",
+        "moment-locales/x-pseudo.js": "assets/app/moment-locales/x-pseudo.js",
+        "moment-locales/zh-cn.js": "assets/app/moment-locales/zh-cn.js",
+        "moment-locales/zh-tw.js": "assets/app/moment-locales/zh-tw.js",
+        "moment-locales/zh.js": "assets/app/moment-locales/zh-cn.js",
+        "node_scripts/auto-translate.js": "assets/app/node_scripts/auto-translate.js",
+        "node_scripts/check-unused-i18n.js": "assets/app/node_scripts/check-unused-i18n.js",
+        "node_scripts/package.json": "assets/app/node_scripts/package.json",
+        "node_scripts/unsubscribe_csv/package.json": "assets/app/node_scripts/unsubscribe_csv/package.json",
+        "node_scripts/unsubscribe_csv/unsubscribe.js": "assets/app/node_scripts/unsubscribe_csv/unsubscribe.js"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules",
+      "sourceMap": "app/app.js.map",
+      "path": "app/app.js",
+      "assets": {
+        "avatars/hubot.png": "assets/app/avatars/hubot.png",
+        "avatars/hubot2.png": "assets/app/avatars/hubot2.png",
+        "avatars/rocketcat.png": "assets/app/avatars/rocketcat.png",
+        "moment-locales/af.js": "assets/app/moment-locales/af.js",
+        "moment-locales/ar-ma.js": "assets/app/moment-locales/ar-ma.js",
+        "moment-locales/ar-sa.js": "assets/app/moment-locales/ar-sa.js",
+        "moment-locales/ar-tn.js": "assets/app/moment-locales/ar-tn.js",
+        "moment-locales/ar.js": "assets/app/moment-locales/ar.js",
+        "moment-locales/az.js": "assets/app/moment-locales/az.js",
+        "moment-locales/be.js": "assets/app/moment-locales/be.js",
+        "moment-locales/bg.js": "assets/app/moment-locales/bg.js",
+        "moment-locales/bn.js": "assets/app/moment-locales/bn.js",
+        "moment-locales/bo.js": "assets/app/moment-locales/bo.js",
+        "moment-locales/br.js": "assets/app/moment-locales/br.js",
+        "moment-locales/bs.js": "assets/app/moment-locales/bs.js",
+        "moment-locales/ca.js": "assets/app/moment-locales/ca.js",
+        "moment-locales/cs.js": "assets/app/moment-locales/cs.js",
+        "moment-locales/cv.js": "assets/app/moment-locales/cv.js",
+        "moment-locales/cy.js": "assets/app/moment-locales/cy.js",
+        "moment-locales/da.js": "assets/app/moment-locales/da.js",
+        "moment-locales/de-at.js": "assets/app/moment-locales/de-at.js",
+        "moment-locales/de.js": "assets/app/moment-locales/de.js",
+        "moment-locales/dv.js": "assets/app/moment-locales/dv.js",
+        "moment-locales/el.js": "assets/app/moment-locales/el.js",
+        "moment-locales/en-au.js": "assets/app/moment-locales/en-au.js",
+        "moment-locales/en-ca.js": "assets/app/moment-locales/en-ca.js",
+        "moment-locales/en-gb.js": "assets/app/moment-locales/en-gb.js",
+        "moment-locales/en-ie.js": "assets/app/moment-locales/en-ie.js",
+        "moment-locales/en-nz.js": "assets/app/moment-locales/en-nz.js",
+        "moment-locales/eo.js": "assets/app/moment-locales/eo.js",
+        "moment-locales/es-do.js": "assets/app/moment-locales/es-do.js",
+        "moment-locales/es.js": "assets/app/moment-locales/es.js",
+        "moment-locales/et.js": "assets/app/moment-locales/et.js",
+        "moment-locales/eu.js": "assets/app/moment-locales/eu.js",
+        "moment-locales/fa.js": "assets/app/moment-locales/fa.js",
+        "moment-locales/fi.js": "assets/app/moment-locales/fi.js",
+        "moment-locales/fo.js": "assets/app/moment-locales/fo.js",
+        "moment-locales/fr-ca.js": "assets/app/moment-locales/fr-ca.js",
+        "moment-locales/fr-ch.js": "assets/app/moment-locales/fr-ch.js",
+        "moment-locales/fr.js": "assets/app/moment-locales/fr.js",
+        "moment-locales/fy.js": "assets/app/moment-locales/fy.js",
+        "moment-locales/gd.js": "assets/app/moment-locales/gd.js",
+        "moment-locales/gl.js": "assets/app/moment-locales/gl.js",
+        "moment-locales/he.js": "assets/app/moment-locales/he.js",
+        "moment-locales/hi.js": "assets/app/moment-locales/hi.js",
+        "moment-locales/hr.js": "assets/app/moment-locales/hr.js",
+        "moment-locales/hu.js": "assets/app/moment-locales/hu.js",
+        "moment-locales/hy-am.js": "assets/app/moment-locales/hy-am.js",
+        "moment-locales/id.js": "assets/app/moment-locales/id.js",
+        "moment-locales/is.js": "assets/app/moment-locales/is.js",
+        "moment-locales/it.js": "assets/app/moment-locales/it.js",
+        "moment-locales/ja.js": "assets/app/moment-locales/ja.js",
+        "moment-locales/jv.js": "assets/app/moment-locales/jv.js",
+        "moment-locales/ka.js": "assets/app/moment-locales/ka.js",
+        "moment-locales/kk.js": "assets/app/moment-locales/kk.js",
+        "moment-locales/km.js": "assets/app/moment-locales/km.js",
+        "moment-locales/ko.js": "assets/app/moment-locales/ko.js",
+        "moment-locales/ky.js": "assets/app/moment-locales/ky.js",
+        "moment-locales/lb.js": "assets/app/moment-locales/lb.js",
+        "moment-locales/lo.js": "assets/app/moment-locales/lo.js",
+        "moment-locales/lt.js": "assets/app/moment-locales/lt.js",
+        "moment-locales/lv.js": "assets/app/moment-locales/lv.js",
+        "moment-locales/me.js": "assets/app/moment-locales/me.js",
+        "moment-locales/mk.js": "assets/app/moment-locales/mk.js",
+        "moment-locales/ml.js": "assets/app/moment-locales/ml.js",
+        "moment-locales/mr.js": "assets/app/moment-locales/mr.js",
+        "moment-locales/ms-my.js": "assets/app/moment-locales/ms-my.js",
+        "moment-locales/ms.js": "assets/app/moment-locales/ms.js",
+        "moment-locales/my.js": "assets/app/moment-locales/my.js",
+        "moment-locales/nb.js": "assets/app/moment-locales/nb.js",
+        "moment-locales/ne.js": "assets/app/moment-locales/ne.js",
+        "moment-locales/nl.js": "assets/app/moment-locales/nl.js",
+        "moment-locales/nn.js": "assets/app/moment-locales/nn.js",
+        "moment-locales/pa-in.js": "assets/app/moment-locales/pa-in.js",
+        "moment-locales/pl.js": "assets/app/moment-locales/pl.js",
+        "moment-locales/pt-br.js": "assets/app/moment-locales/pt-br.js",
+        "moment-locales/pt.js": "assets/app/moment-locales/pt.js",
+        "moment-locales/ro.js": "assets/app/moment-locales/ro.js",
+        "moment-locales/ru.js": "assets/app/moment-locales/ru.js",
+        "moment-locales/se.js": "assets/app/moment-locales/se.js",
+        "moment-locales/si.js": "assets/app/moment-locales/si.js",
+        "moment-locales/sk.js": "assets/app/moment-locales/sk.js",
+        "moment-locales/sl.js": "assets/app/moment-locales/sl.js",
+        "moment-locales/sq.js": "assets/app/moment-locales/sq.js",
+        "moment-locales/sr-cyrl.js": "assets/app/moment-locales/sr-cyrl.js",
+        "moment-locales/sr.js": "assets/app/moment-locales/sr.js",
+        "moment-locales/ss.js": "assets/app/moment-locales/ss.js",
+        "moment-locales/sv.js": "assets/app/moment-locales/sv.js",
+        "moment-locales/sw.js": "assets/app/moment-locales/sw.js",
+        "moment-locales/ta.js": "assets/app/moment-locales/ta.js",
+        "moment-locales/te.js": "assets/app/moment-locales/te.js",
+        "moment-locales/th.js": "assets/app/moment-locales/th.js",
+        "moment-locales/tl-ph.js": "assets/app/moment-locales/tl-ph.js",
+        "moment-locales/tlh.js": "assets/app/moment-locales/tlh.js",
+        "moment-locales/tr.js": "assets/app/moment-locales/tr.js",
+        "moment-locales/tzl.js": "assets/app/moment-locales/tzl.js",
+        "moment-locales/tzm-latn.js": "assets/app/moment-locales/tzm-latn.js",
+        "moment-locales/tzm.js": "assets/app/moment-locales/tzm.js",
+        "moment-locales/uk.js": "assets/app/moment-locales/uk.js",
+        "moment-locales/uz.js": "assets/app/moment-locales/uz.js",
+        "moment-locales/vi.js": "assets/app/moment-locales/vi.js",
+        "moment-locales/x-pseudo.js": "assets/app/moment-locales/x-pseudo.js",
+        "moment-locales/zh-cn.js": "assets/app/moment-locales/zh-cn.js",
+        "moment-locales/zh-tw.js": "assets/app/moment-locales/zh-tw.js",
+        "moment-locales/zh.js": "assets/app/moment-locales/zh-cn.js",
+        "node_scripts/auto-translate.js": "assets/app/node_scripts/auto-translate.js",
+        "node_scripts/check-unused-i18n.js": "assets/app/node_scripts/check-unused-i18n.js",
+        "node_scripts/package.json": "assets/app/node_scripts/package.json",
+        "node_scripts/unsubscribe_csv/package.json": "assets/app/node_scripts/unsubscribe_csv/package.json",
+        "node_scripts/unsubscribe_csv/unsubscribe.js": "assets/app/node_scripts/unsubscribe_csv/unsubscribe.js"
+      }
+    }
+  ]
+}
