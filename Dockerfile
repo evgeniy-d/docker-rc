@@ -2,31 +2,18 @@ FROM mtro/docker-rc-base:latest
 
 USER root
 
-COPY ./. /app/source/
+COPY ./build /app/build/
 
-RUN chown -R meteor /app
-
-USER meteor
+RUN chown -R rocketchat /app
 
 RUN set -x \
- && cd /app/source \
- && meteor --version \
- && export PYTHON=/usr/bin/python2.7 \
- && meteor npm i && meteor npm i --only=dev \
- && meteor build --directory /app/build/ \
- && cd /app \
- && rm -rf /app/source \
- && mv /app/build/bundle /app/server/rc \
- && cd /app/server/rc/programs/server \
+ && cd /app/build/bundle/programs/server \
  && npm install \
- && npm cache clear --force \
-
-USER root
-
-RUN chown -R rocketchat:rocketchat /app
+ && npm cache clear --force
 
 USER rocketchat
 
-WORKDIR /app/server/rc
+WORKDIR /app/build/bundle
 
+CMD ["node", "main.js"]
 
