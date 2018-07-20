@@ -6,7 +6,7 @@ COPY ./server_build /app/build/
 
 RUN set -x \
  && cd /app/build/bundle/programs/server \
- && npm install \
+ && npm install --save \
  && npm cache clear --force
 
 RUN chown -R rocketchat:rocketchat /app
