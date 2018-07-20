@@ -4,7 +4,7 @@ USER root
 
 COPY ./server_build /app/build/
 
-RUN chown -R rocketchat /app
+RUN chown -R rocketchat:rocketchat /app
 
 RUN set -x \
  && cd /app/build/bundle/programs/server \
